@@ -193,3 +193,29 @@ p{
     height: 54px;
     width: 224px;
 }
+
+/* habits styles */
+
+.habits{
+    text-align: center;
+}
+
+.habits-content{
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 200px;
+}
+
+.habits-items{
+    justify-content: center;
+    margin-top: 80px;
+   gap: 100px;
+}
+
+.habits-sub-items{
+    text-align: center;
+}
+
+.habits-images{
+    border-radius: 100px;
+}
