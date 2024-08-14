@@ -311,3 +311,58 @@ td,th {
     border-radius: 5px;
     color: var(--secondary-color);
 }
+
+/* team styles */
+.team-content{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.team-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 50px;
+    text-align: center; 
+}
+
+.trainer{
+    width: 60%;
+    border-radius: 20px;
+}
+
+.ti{
+    margin-top: -90px;
+    margin-left: -110px;
+}
+
+/* footer styles */
+footer{
+    background-color: rgb(32, 26, 26);
+    margin-top: 50px;
+    margin-bottom: -50px;
+    /* margin-left: -50px;
+    margin-right: -50px; */
+}
+.footer-content{
+    /* gap: 50px; */
+    padding: 50px;
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: space-evenly;
+}
+.footer-items{
+    text-align: center;
+    padding: 2px;
+}
+ul{
+    color: var(--secondary-color);
+    list-style: none;
+}
+hr{
+    width: 1200px;
+    border: 1px solid var(--secondary-color);
+}
+#h10{
+    color: #E6533C;
+}
