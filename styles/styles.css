@@ -219,3 +219,38 @@ p{
 .habits-images{
     border-radius: 100px;
 }
+
+/* mile styles */
+
+.mile{
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    padding: 60px;
+    border-radius: 15px;
+    background-color: #222222;
+    justify-content: space-between;
+    gap: 50px;
+
+
+}
+
+.mile-content{
+    /* text-align: initial; */
+}
+
+.mile-items img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* diet styles */
+
+.diet{
+    text-align: center;
+    flex-direction: column;
+}
