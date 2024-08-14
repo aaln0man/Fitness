@@ -79,3 +79,117 @@ p{
     /* font-weight: 400; */
     margin-bottom: -10px; 
 }
+
+/* shape styles */
+
+.shape{
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    /* justify-content: space-around; */
+
+}
+
+#shape{
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: cursive;
+}
+
+.shape-content{
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.shape-items{
+   
+}
+
+.ball{
+    height: 20px;
+    width: 20px;
+    background-color: #E6533C;
+    border-radius: 50px;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.video-badge2{
+    /* color: var(--secondary-color); */
+    /* background: transparent;
+    border-color: aqua; */
+    /* padding: 45px 42px; */
+    /* font-size: 1.5rem;
+    font-weight: 500; */
+    margin-left: -60px;
+    margin-top: -90px;
+}
+
+#video-badge2{
+    background-color: #222222;
+    opacity: 0.5;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-align: initial;
+    gap: 10px;
+}
+
+#video-number2{
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#tutorial{
+    color: var(--secondary-color);
+    font-size: 0.rem;
+    font-weight: 400; 
+} 
+
+
+.video-badge1{
+   /* margin-top: -260px;
+   margin-left: 220px; */
+   margin-bottom: -280px;
+   margin-left: 280px;
+}
+
+ #video-badge1{
+    background-color: #222222;
+    opacity: 0.5;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+#video-number1{
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 400;
+}
+#workout{
+    color: var(--secondary-color);
+    font-size: 0.5rem;
+    font-weight: 400; 
+}
+
+.btn{
+    color: var(--primary-color);
+    background-color: #E6533C;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    height: 54px;
+    width: 224px;
+}
+
+#btn{
+    color: var(--primary-color);
+    background-color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    border-color: white;
+    height: 54px;
+    width: 224px;
+}
