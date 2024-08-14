@@ -90,7 +90,7 @@ p{
     gap: 200px;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 150px;
     /* justify-content: space-around; */
 
 }
@@ -120,12 +120,6 @@ p{
 }
 
 .video-badge2{
-    /* color: var(--secondary-color); */
-    /* background: transparent;
-    border-color: aqua; */
-    /* padding: 45px 42px; */
-    /* font-size: 1.5rem;
-    font-weight: 500; */
     margin-left: -60px;
     margin-top: -90px;
 }
@@ -183,8 +177,8 @@ p{
     font-weight: bold;
     border-radius: 50px;
     border: none;
-    height: 54px;
-    width: 224px;
+    height: 45px;
+    width: 190px;
 }
 
 #btn{
@@ -194,8 +188,8 @@ p{
     font-weight: bold;
     border-radius: 50px;
     border-color: white;
-    height: 54px;
-    width: 224px;
+    height: 45px;
+    width: 190px;
 }
 
 /* habits styles */
@@ -290,8 +284,8 @@ td,th {
 
 .data{
     background-color: #222222;
-    height: 35px;
-    width: 180px;
+    height: 32px;
+    width: 170px;
     margin: 5px;
     border: 1px  solid var(--secondary-color);
     border-radius: 5px;
@@ -301,7 +295,7 @@ td,th {
 #sex{
     background-color: #222222;
     height: 35px;
-    width: 190px;
+    width: 176px;
     margin: 5px;
     border-radius: 5px;
     color: var(--secondary-color);
@@ -310,7 +304,7 @@ td,th {
 #activity{
     background-color: #222222;
     height: 35px;
-    width: 390px;
+    width: 367px;
     margin: 5px;
     border-radius: 5px;
     color: var(--secondary-color);
@@ -337,7 +331,7 @@ td,th {
 
 .ti{
     margin-top: -90px;
-    margin-left: -110px;
+    margin-left: -90px;
 }
 
 /* footer styles */
@@ -382,6 +376,11 @@ hr{
         flex-direction: column;
     }
     
+    .shape{
+        margin-top: 10px;
+    
+    }
+
     .link-item{
         display: none;
     }
@@ -423,10 +422,6 @@ hr{
         width: 90%;
     }
 
-    .bmi{
-        /* text-align: center; */
-    }
-
     .bmi-content{
         /* margin-left: 40px; */
         /* text-align: left;
@@ -434,11 +429,7 @@ hr{
         text-align: left;
     }
     .bmi-items{
-        /* text-align: center; */
-        /* align-items: center; */
-        /* justify-content: center; */
-        /* margin-top: 50px; */
-       /* margin-left: 40px; */
+
        flex-direction: column;
     }
 
