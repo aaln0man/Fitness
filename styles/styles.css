@@ -1,8 +1,6 @@
 :root{
     --primary-color: white;
     --secondary-color: gray;
-    /* --font-size:12px; */
-
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -71,12 +69,10 @@ p{
 #h3{
     color: tomato;
     font-size: 36px;
-    /* margin-top: -0.0000001px; */
 }
 
 #h1{
     font-size: 4.875rem;
-    /* font-weight: 400; */
     margin-bottom: -10px; 
 }
 
@@ -91,23 +87,19 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: 200px;
-    /* justify-content: space-around; */
 
 }
 
 #shape{
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-family: cursive;
 }
 
 .shape-content{
     color: white;
-    text-align: center;
-    justify-content: center;
 }
 
 .shape-items{
-   
+    margin-top: 150px;
 }
 
 .ball{
@@ -147,8 +139,6 @@ p{
 
 
 .video-badge1{
-   /* margin-top: -260px;
-   margin-left: 220px; */
    margin-bottom: -280px;
    margin-left: 280px;
 }
@@ -199,7 +189,6 @@ p{
 }
 
 .habits-content{
-    /* justify-content: center; */
     text-align: center;
     margin-top: 200px;
 }
@@ -224,20 +213,19 @@ p{
     text-align: center;
     align-items: center;
     margin-top: 100px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-bottom: 50px;
-    padding: 60px;
+    padding: 50px;
     border-radius: 15px;
     background-color: #222222;
     justify-content: space-between;
-    gap: 50px;
 
 
 }
 
 .mile-content{
-    /* text-align: initial; */
+    text-align: initial;
 }
 
 .mile-items img{
@@ -265,13 +253,8 @@ td,th {
     padding: 5px 10px;
 }
 
-.bmi{
-    /* margin-left: -50px;
-    margin-right: -50px; */
-}
 .bmi-content{
     text-align: center;
-    /* padding: 50px; */
 }
 
 .bmi-items{
@@ -281,6 +264,7 @@ td,th {
     border-radius: 15px;
     background-color: #222222;
 }
+
 
 .data{
     background-color: #222222;
@@ -339,14 +323,9 @@ footer{
     background-color: rgb(32, 26, 26);
     margin-top: 50px;
     margin-bottom: -50px;
-    /* margin-left: -50px;
-    margin-right: -50px; */
 }
 .footer-content{
-    /* gap: 50px; */
     padding: 50px;
-    /* align-items: center; */
-    /* text-align: center; */
     justify-content: space-evenly;
 }
 .footer-items{
@@ -381,6 +360,10 @@ hr{
     
     }
 
+    .shape-items{
+        margin-top: -50px;
+    }
+
     .link-item{
         display: none;
     }
@@ -388,14 +371,8 @@ hr{
     .bar{
         display: block;
     }
-    
-    .shape-items{
-        /* margin-left: 60px; */
-    }
 
     .video-badge1{
-        /* margin-top: -260px;
-        margin-left: 220px; */
         margin-bottom: -170px;
         margin-left: 200px;
      }
@@ -407,6 +384,13 @@ hr{
 
     .mile{
         flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 50px;
+    }
+
+    #mile-btn{
+        width: 290px;
     }
 
     .diet{
@@ -423,9 +407,6 @@ hr{
     }
 
     .bmi-content{
-        /* margin-left: 40px; */
-        /* text-align: left;
-        justify-content: left; */
         text-align: left;
     }
     .bmi-items{
@@ -436,29 +417,18 @@ hr{
     .team-items{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* grid-template-columns: repeat(1, [col-start] min-content [col-middle] max-content [col-end]); */
-        /* justify-content: center; */
     
     }
 
-    footer{
-        /* text-align: center; */
-
-    }
     .footer-items{
-        /* text-align: center; */
-        /* padding: 2px; */
         text-align: left;
-        /* margin-left: 50px; */
     }
     
     hr{
         width: 400px;
-        /* border: 1px solid var(--secondary-color); */
     }
     
     #all{
         margin-left: 50px;
-        /* text-align: left; */
     }
 }
